@@ -1,0 +1,35 @@
+.imagem-lista {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.imagem-lista article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0 10px 10px 10px;
+  box-shadow: 5px 5px 5px 2px #999;
+}
+
+.imagem-lista article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid rgba(68, 109, 231, 0.918);
+  background: none;
+  margin-top: 10px;
+  color: rgba(68, 109, 231, 0.918);
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.imagem-lista article a:hover {
+  background: rgba(68, 109, 231, 0.918);
+  color: #fff;
+}
