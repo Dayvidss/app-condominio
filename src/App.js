@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 const App = () => (
   <div className='App'>
     <Header title='Condominio G8' />
-    <Footer />
     <Routes />
+    <Footer />
   </div>
 )
 
